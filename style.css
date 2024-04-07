@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eae7dc;
+}
+
+div.container {
+  text-align: center;
+  line-height: 3em;
+}
+
+h1 {
+  font-size: 3em;
+  color: #e85a4f;
+  font-weight: 100;
+  margin: 1em;
+}
+
+li.recipe a {
+  text-decoration: none;
+  color: #8e8d8a;
+}
+
+li.recipe a:hover {
+  color: black;
+}
