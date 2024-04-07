@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #a2d2ff;
+}
+
+div.container {
+  margin: auto;
+  width: 30em;
+  padding: 2em;
+}
+
+h1,
+h2,
+p,
+li,
+th,
+td {
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 100;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1.5em;
+}
+
+img.recipe {
+  height: auto;
+  width: 350px;
+  border-radius: 50%;
+  margin: 2em 0 2em 35px;
+  border: 6px solid #ffb0c9;
+}
+
+th,
+td {
+  padding-right: 10em;
+  border: 1px solid #ffffff;
+}
