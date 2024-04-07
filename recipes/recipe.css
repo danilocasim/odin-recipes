@@ -18,18 +18,20 @@ div.container {
   padding: 2em;
 }
 
-h1 {
-  text-align: center;
-  font-weight: 100;
+h1,
+h2 {
   background-color: #ffb0c9;
-  padding: 5px;
+  font-weight: 100;
   border-radius: 25px;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
 }
 
 h2 {
-  margin-top: 1.5em;
-  font-weight: 100;
-  color: #ffb0c9;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  width: 200px;
 }
 
 img.recipe {
