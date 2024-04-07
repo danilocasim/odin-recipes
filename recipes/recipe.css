@@ -20,10 +20,13 @@ div.container {
 
 h1 {
   text-align: center;
+  font-weight: 100;
 }
 
 h2 {
   margin-top: 1.5em;
+  font-weight: 100;
+  color: #ffb0c9;
 }
 
 img.recipe {
@@ -31,7 +34,7 @@ img.recipe {
   width: 350px;
   border-radius: 50%;
   margin: 2em 0 2em 35px;
-  border: 6px solid #ffb0c9;
+  border: 3px solid #ffb0c9;
 }
 
 th,
