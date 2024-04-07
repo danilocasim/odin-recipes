@@ -7,23 +7,26 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #a2d2ff;
+  line-height: 3em;
 }
 
 div.container {
   text-align: center;
-  line-height: 3em;
 }
 
 h1 {
   font-size: 3em;
-  color: #ffffff;
   font-weight: 100;
   margin: 1em;
 }
 
+h1,
+li.recipe a {
+  color: #ffffff;
+}
+
 li.recipe a {
   text-decoration: none;
-  color: #ffffff;
   background-color: #ffb0c9;
   padding: 0.5em;
   border-radius: 10px;

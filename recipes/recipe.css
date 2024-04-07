@@ -2,27 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  line-height: 30px;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #a2d2ff;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 div.container {
   margin: auto;
   width: 30em;
   padding: 2em;
-}
-
-h1,
-h2,
-p,
-li,
-th,
-td {
-  color: #ffffff;
 }
 
 h1 {
