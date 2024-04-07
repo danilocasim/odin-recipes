@@ -9,13 +9,12 @@ body {
   background-color: #a2d2ff;
   line-height: 30px;
   color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 div.container {
   margin: auto;
   width: 30em;
-  padding: 2em;
 }
 
 h1 {
