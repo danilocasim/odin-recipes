@@ -23,9 +23,13 @@ h1 {
 
 li.recipe a {
   text-decoration: none;
-  color: #8e8d8a;
+  color: #ffffff;
+  background-color: #ffb0c9;
+  padding: 0.5em;
+  border-radius: 10px;
 }
 
 li.recipe a:hover {
-  color: black;
+  color: #ffb0c9;
+  background-color: #ffffff;
 }
