@@ -21,6 +21,9 @@ div.container {
 h1 {
   text-align: center;
   font-weight: 100;
+  background-color: #ffb0c9;
+  padding: 5px;
+  border-radius: 25px;
 }
 
 h2 {
