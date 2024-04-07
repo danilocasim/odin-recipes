@@ -9,7 +9,7 @@ body {
   background-color: #a2d2ff;
   line-height: 30px;
   color: #ffffff;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 div.container {
