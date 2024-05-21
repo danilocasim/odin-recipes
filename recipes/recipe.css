@@ -11,30 +11,35 @@ html {
 * {
   padding: 0;
   margin: 0;
+  line-height: 30px;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #4b1223;
-  line-height: 30px;
   color: #ffffff;
   overflow-x: hidden;
 }
 
 div.container {
-  margin: auto;
-  width: 30em;
-  padding: 2em;
+  display: block;
+  margin: 150px auto;
+  width: 40em;
+  padding: 50px;
+  border: 20px double #e1c699;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 2.4em;
 }
 
 h1,
 h2 {
-  background-color: #e1c699;
+  color: #e1c699;
   font-weight: 500;
   border-radius: 25px;
-  color: #ffffff;
-  padding: 5px;
-  text-align: center;
 }
 
 h2 {
@@ -44,16 +49,26 @@ h2 {
 }
 
 img.recipe {
-  height: auto;
-  width: 350px;
+  display: block;
+  margin: -160px auto 50px;
+  border: 5px solid #e1c699;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
-  margin: 2em 0 2em 35px;
-  border: 3px solid #e1c699;
+}
+
+img.recipe:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 th,
 td {
-  padding: 0.5em;
-  padding-right: 10em;
+  padding: 0.5em 12em 0.5em 0.5em;
+  margin: 0 auto;
   border: 1px solid #e1c699;
+}
+
+ul {
+  list-style-type: none;
 }
