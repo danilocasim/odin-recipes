@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -16,15 +18,26 @@
   <body>
     <div class="container">
       <h1 class="title">Odin Recipes</h1>
-      <ul>
-        <li class="recipe">
-          <a href="recipes/lasagna.html">Artichoke Spinach Lasagna</a>
-        </li>
-        <li class="recipe">
-          <a href="recipes/croissant.html">Croissant French Toast</a>
-        </li>
-        <li class="recipe"><a href="recipes/katsu.html">Chicken Katsu</a></li>
-      </ul>
+      <div class="recipe-container">
+        <div class="recipe">
+          <a href="recipes/croissant.html">
+            <img src="recipes/images/croissant.jpeg" alt="croissant" />
+            <h3>Croissant French Toast</h3>
+          </a>
+        </div>
+        <div class="recipe">
+          <a href="recipes/katsu.html">
+            <img src="recipes/images/katsu.jpeg" alt="croissant" />
+            <h3>Chicken Katsu</h3>
+          </a>
+        </div>
+        <div class="recipe">
+          <a href="recipes/lasagna.html">
+            <img src="recipes/images/lasagna.jpeg" alt="croissant" />
+            <h3>Lasagna</h3>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
