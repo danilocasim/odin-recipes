@@ -55,6 +55,7 @@ img.recipe {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  box-shadow: 1px 1px 110px -5px rgba(0, 0, 0, 0.75);
 }
 
 img.recipe:hover {
