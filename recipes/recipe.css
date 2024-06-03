@@ -23,10 +23,10 @@ body {
 
 div.container {
   display: block;
-  margin: 150px;
+  margin: 150px auto;
   max-width: 40em;
   padding: 50px;
-  border: 20px double #e1c699;
+  border: 20px double #e2dbcf;
 }
 
 h1 {
@@ -65,7 +65,7 @@ img.recipe:hover {
 
 th,
 td {
-  padding: 0.5em 5em 0.5em 0.5em;
+  padding: 0.5em 2em 0.5em 0.5em;
   margin: 0 auto;
   border: 1px solid #e1c699;
 }
