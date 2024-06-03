@@ -21,7 +21,7 @@ div.container {
 
 .recipe img {
   height: auto;
-  width: 350px;
+  max-width: 350px;
 }
 
 h1 {

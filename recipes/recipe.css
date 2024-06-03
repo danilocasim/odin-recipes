@@ -24,7 +24,7 @@ body {
 div.container {
   display: block;
   margin: 150px auto;
-  width: 40em;
+  max-width: 40em;
   padding: 50px;
   border: 20px double #e1c699;
 }
@@ -52,8 +52,8 @@ img.recipe {
   display: block;
   margin: -160px auto 50px;
   border: 5px solid #e1c699;
-  height: 200px;
-  width: 200px;
+  max-height: 200px;
+  max-width: 200px;
   border-radius: 50%;
   box-shadow: 1px 1px 110px -5px rgba(0, 0, 0, 0.75);
 }
