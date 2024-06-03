@@ -23,7 +23,7 @@ body {
 
 div.container {
   display: block;
-  margin: 150px auto;
+  margin: 150px;
   max-width: 40em;
   padding: 50px;
   border: 20px double #e1c699;

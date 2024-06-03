@@ -20,11 +20,12 @@ div.container {
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+  margin: 0 10px;
 }
 
 .recipe img {
   height: auto;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 h1 {
