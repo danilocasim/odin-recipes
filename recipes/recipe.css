@@ -25,6 +25,7 @@ div.container {
   display: block;
   margin: 150px auto;
   max-width: 40em;
+  min-width: 25em;
   padding: 50px;
   border: 20px double #e2dbcf;
 }
