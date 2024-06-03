@@ -14,9 +14,12 @@ div.container {
   text-align: center;
 }
 
-.recipe {
-  display: inline-block;
-  margin: 40px;
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .recipe img {
@@ -27,8 +30,7 @@ div.container {
 h1 {
   font-size: 5em;
   font-weight: 500;
-  margin: 1em;
-  text-align: center;
+  margin: 1.5em 0;
 }
 
 h3 {
@@ -36,7 +38,7 @@ h3 {
 }
 
 h1,
-h3,
+html h3,
 li.recipe a {
   color: #ffffff;
 }
